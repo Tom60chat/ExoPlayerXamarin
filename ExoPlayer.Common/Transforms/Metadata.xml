@@ -225,5 +225,7 @@
 
   <!--<remove-node path="/api/package[@name='com.google.android.exoplayer2.source']/interface[@name='MediaSource']/method[@name='releasePeriod' and count(parameter)=1 and parameter[1][@type='com.google.android.exoplayer2.source.MediaPeriod']]" />-->
 
+  <!--<arre name="type" path="/api/package[@name='com.google.android.exoplayer2.metadata']/class[@name='Metadata']/method[@name='writeToParcel' and count(parameter)=3]">void</arre>
+  <arre name="type" path="/api/package[@name='com.google.android.exoplayer2.metadata.id3']/class[@name='Id3Frame']/method[@name='writeToParcel' and count(parameter)=3]">void</arre>-->
 
 </metadata>

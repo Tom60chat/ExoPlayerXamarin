@@ -66,6 +66,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoPlayer.Extractor", "ExoP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExoPlayer.Common", "ExoPlayer.Common\ExoPlayer.Common.csproj", "{735C8E6A-C50F-4EE3-85F7-627222F01A74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoPlayer.Rtsp", "ExoPlayer.Rtsp\ExoPlayer.Rtsp.csproj", "{EE468FDD-8619-4ED3-9511-2991A39BED87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +162,10 @@ Global
 		{735C8E6A-C50F-4EE3-85F7-627222F01A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735C8E6A-C50F-4EE3-85F7-627222F01A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735C8E6A-C50F-4EE3-85F7-627222F01A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE468FDD-8619-4ED3-9511-2991A39BED87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE468FDD-8619-4ED3-9511-2991A39BED87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE468FDD-8619-4ED3-9511-2991A39BED87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE468FDD-8619-4ED3-9511-2991A39BED87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

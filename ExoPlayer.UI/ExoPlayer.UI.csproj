@@ -18,6 +18,19 @@
     <JavaSourceJar Include="JavaDocs\*.jar" />
   </ItemGroup>
 
+  <ItemGroup>
+    <JavaSourceJar Remove="JavaDocs\exoplayer-ui-2.15.0-sources.jar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Jars\exoplayer-ui-2.15.0.aar" />
+    <None Remove="JavaDocs\exoplayer-ui-2.15.0-sources.jar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InputJar Include="JavaDocs\exoplayer-ui-2.15.0-sources.jar" />
+  </ItemGroup>
+
    <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Media" Version="1.1.0.5" />
     <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.1.0.5" />

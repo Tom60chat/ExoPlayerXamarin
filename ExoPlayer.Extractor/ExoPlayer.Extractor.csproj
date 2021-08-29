@@ -19,6 +19,19 @@
   </ItemGroup>
   
   <ItemGroup>
+    <JavaSourceJar Remove="JavaDocs\exoplayer-extractor-2.15.0-sources.jar" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Jars\exoplayer-extractor-2.15.0.aar" />
+    <None Remove="JavaDocs\exoplayer-extractor-2.15.0-sources.jar" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <InputJar Include="JavaDocs\exoplayer-extractor-2.15.0-sources.jar" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <ProjectReference Include="..\ExoPlayer.Common\ExoPlayer.Common.csproj" />
   </ItemGroup>
 </Project>
